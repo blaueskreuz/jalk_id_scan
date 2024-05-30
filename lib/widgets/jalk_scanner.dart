@@ -136,22 +136,24 @@ class _JalkScannerState extends State<JalkScanner> {
       ResolutionPreset.high,
       enableAudio: false,
     );
-    _controller?.initialize().then((_) {
+
+    try {
+      await _controller?.initialize();
+      await _controller?.lockCaptureOrientation();
+
       if (!mounted) {
         return;
       }
+
       _controller?.startImageStream(_processCameraImage);
       setState(() {});
-    }).catchError((Object e) {
-      if (e is CameraException) {
-        switch (e.code) {
-          case 'CameraAccessDenied':
-            break;
-          default:
-            break;
-        }
-      }
-    });
+    } on CameraException catch (e) {
+      switch (e.code) {
+        case 'CameraAccessDenied':
+          break;
+        default:
+          break;
+    }
   }
 
   Future _stopCamera() async {
