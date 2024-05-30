@@ -153,6 +153,7 @@ class _JalkScannerState extends State<JalkScanner> {
           break;
         default:
           break;
+      }
     }
   }
 
