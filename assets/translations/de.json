@@ -1,0 +1,47 @@
+{
+  "navigation": {
+    "scan": "Scannen",
+    "about_us": "Über uns",
+    "data_protection": "Datenschutz",
+    "tutorial": "Anleitung"
+  },
+  "screens": {
+    "scan": {
+      "title": "Scannen",
+      "text": "Bitte erlauben Sie dieser App den Zugriff auf die Kamera.",
+      "id_card": "Identitätskarte",
+      "drivers_license": "Führerausweis",
+      "years": "{} Jahre",
+      "scan_again": "Nochmals scannen",
+      "date_of_birth": "Geburtsdatum: {}"
+    },
+    "about_us": {
+      "title": "Über uns",
+      "text": "Das Blaue Kreuz hilft suchtkranken Menschen, unterstützt deren Angehörige und setzt sich für einen wirksamen Jugendschutz im Umgang mit Alkoholkonsum ein. Mit gezielten Jugendschutzmassnahmen unterstützt das Blaue Kreuz Bund und Kantone bei der Umsetzung ihres gesetzlichen Auftrages. Prävention und Gesundheitsförderung sind ein wichtiger Bestandteil der Blaukreuz-Tätigkeiten, dazu gehören beispielsweise auch Testkäufe von alkoholischen Getränken.\n\nDie ID Scan App untersützt das Verkaufspersonal bei der Einhaltung des Jugendschutzes beim Alkoholverkauf. Sie wurde vom Bundesamt für Zoll und Grenzsicherheit (BAZG) und dem Blauen Kreuz Schweiz gemeinsam erarbeitet.",
+      "licenses": "Lizenzen",
+      "show_licenses": "Lizenzen anzeigen"
+    },
+    "data_protection": {
+      "title": "Datenschutz",
+      "text": "Bei der Benutzung der ID Scan App werden keine Daten aufgezeichnet. Der Scanner liest nur die ID und macht kein Foto. Die Anwendung kann auch ohne Internetverbindung genutzt werden, sogar im Flugzeugmodus.\n\nHaftung\n\nDer Inhaber behält sich ausdrücklich vor, jederzeit Inhalte dieser App ohne Ankündigung ganz oder teilweise zu ändern oder zu löschen. Haftungsansprüche gegen den Inhaber wegen Schäden materieller oder immaterieller Art, welche durch die Nutzung dieser App, durch technische Störungen, durch Missbrauch der ID Scan App oder aus anderen Gründen entstanden sind, werden ausgeschlossen.\n\nCopyright\n\nDie auf der App enthaltenen Informationen werden der Öffentlichkeit zugänglich gemacht. Durch das Herunterladen oder Kopieren von Inhalten, Bildern, Fotos oder anderen Dateien werden keinerlei Rechte bezüglich der Inhalte übertragen.\n\nDie Urheber- und alle anderen Rechte an Inhalten, Bildern, Fotos oder anderen Dateien auf der App gehören ausschliesslich diesen oder den speziell genannten Rechtsinhabern. Für die Reproduktion jeglicher Elemente ist die schriftliche Zustimmung der Urheberrechtsträger im Voraus einzuholen."
+    },
+    "tutorial": {
+      "face_recognition": {
+        "title": "Überprüfen Sie das Bild",
+        "description": "Vergleichen Sie das Bild immer mit dem Gesicht der Person."
+      },
+      "scan": {
+        "title": "Wie man scannt",
+        "description": "Scannen Sie nur das Textfeld oder den QR-Code auf der Rückseite."
+      },
+      "check_result": {
+        "title": "Prüfen Sie das Ergebnis",
+        "description": "Grün: keine Einschränkungen, Gelb: nur Bier und Wein, Rot: kein Alkoholverkauf."
+      },
+      "skip": "Überspringen",
+      "previous": "Zurück",
+      "next": "Weiter",
+      "done": "Fertig"
+    }
+  }
+}

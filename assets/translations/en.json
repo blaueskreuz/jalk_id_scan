@@ -1,0 +1,47 @@
+{
+  "navigation": {
+    "scan": "Scan",
+    "about_us": "About us",
+    "data_protection": "Data protection",
+    "tutorial": "Tutorial"
+  },
+  "screens": {
+    "scan": {
+      "title": "Scan",
+      "text": "Please allow this App to access the camera.",
+      "id_card": "Identity card",
+      "drivers_license": "Driver's license",
+      "years": "{} years",
+      "scan_again": "Scan again",
+      "date_of_birth": "Date of birth: {}"
+    },
+    "about_us": {
+      "title": "About us",
+      "text": "The Blue Cross helps individuals with addiction, supports their family members, and advocates for effective youth protection in dealing with alcohol consumption. Through targeted youth protection measures, the Blue Cross assists the federal and cantonal governments in fulfilling their legal mandates. Prevention and health promotion are important components of its activities, including, for example, test purchases of alcoholic beverages. \n\n The ID Scan App supports sales personnel in complying with youth protection regulations in the sale of alcohol. It was developed jointly by the Federal Office for Customs and Border Security (FOCBS) and the Blue Cross Switzerland.",
+      "licenses": "Licenses",
+      "show_licenses": "Show licenses"
+    },
+    "data_protection": {
+      "title": "Data protection",
+      "text": "No data is recorded when using the ID Scan app. The scanner only reads the ID and does not take a photo. The application can also be used without an internet connection, even in flight mode.\n\nLiability\n\n The owner expressly reserves the right to change or delete the content of this app in whole or in part at any time without prior notice. Liability claims against the owner for material or immaterial damage caused by the use of this app, by technical faults, by misuse of the ID Scan app, or for other reasons, are excluded.\n\nCopyright\n\n The information contained in the app is made available to the public. Downloading or copying content, images, photos, or other files does not transfer any rights to the content.\n\n The copyright and all other rights to content, images, photos, or other files on the app belong exclusively to these or the specifically named rights holders. The written consent of the copyright holders must be obtained in advance for the reproduction of any elements.\n\n"
+    },
+    "tutorial": {
+      "face_recognition": {
+        "title": "Check the picture",
+        "description": "Always compare the picture with the person's face."
+      },
+      "scan": {
+        "title": "How to scan",
+        "description": "Scan only the text box on the back."
+      },
+      "check_result": {
+        "title": "Check the result",
+        "description": "Green has no restrictions, yellow beer & wine only, no alcohol sale for red."
+      },
+      "skip": "Skip",
+      "previous": "Previous",
+      "next": "Next",
+      "done": "Done"
+    }
+  }
+}

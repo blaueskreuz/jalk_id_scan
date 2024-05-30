@@ -1,0 +1,47 @@
+{
+  "navigation": {
+    "scan": "Scanner",
+    "about_us": "Portrait",
+    "data_protection": "Protection des données",
+    "tutorial": "Tutoriel"
+  },
+  "screens": {
+    "scan": {
+      "title": "Scanner",
+      "text": "Veuillez autoriser cette application à accéder à l'appareil photo.",
+      "id_card": "Carte d'identité",
+      "drivers_license": "Permis de conduire",
+      "years": "{} ans",
+      "scan_again": "Scanner à nouveau",
+      "date_of_birth": "Date de naissance: {}"
+    },
+    "about_us": {
+      "title": "Portrait",
+      "text": "La Croix-Bleue aide les personnes dépendentes, soutient leurs proches et s'engage pour une protection efficace des jeunes face à la consommation d'alcool. Avec des mesures ciblées de protection de la jeunesse, la Croix-Bleue soutient la Conféderation et les cantons dans la mise en œuvre de leur mandat légal.La prévention et la promotion de la santé font partie intégrante des activités de la Croix-Bleue, y compris par exemple les achats-tests de boissons alcooliques.\n\nL'application ID Scan aide le personnel de vente à respecter la protection de la jeunesse lors de la vente d'alcool. Elle a été élaborée conjointement par l'Office fédéral des douanes et de la sécurité des frontières (OFDT) et la Croix-Bleue Suisse.",
+      "licenses": "Licences",
+      "show_licenses": "Afficher les licences"
+    },
+    "data_protection": {
+      "title": "Protection des données",
+      "text": "Lors de l'utilisation de l'application ID Scan, aucune donnée n'est enregistrée. Le scanner lit uniquement l'identifiant et ne prend pas de photo. L'application peut également être utilisée sans connexion internet, même en mode avion.\n\nResponsabilité\n\nLe propriétaire se réserve expressément le droit de modifier ou de supprimer tout ou partie du contenu de cette application à tout moment et sans préavis. Les demandes de responsabilité à l'encontre du propriétaire pour des dommages de nature matérielle ou immatérielle résultant de l'utilisation de cette application, de dysfonctionnements techniques, d'une utilisation abusive de ID Scan App ou d'autres raisons sont exclues.\n\nDroits d'auteur\n\nLes informations contenues dans l'application sont rendues accessibles au public. En téléchargeant ou en copiant du contenu, des images, des photos ou d'autres fichiers, aucun droit sur le contenu n'est transféré. Le droit d'auteur et tous les autres droits sur le contenu, les images, les photos ou autres fichiers de l'application appartiennent exclusivement aux titulaires des droits d'auteur respectifs ou à ceux spécifiquement nommés comme titulaires de droits. Une autorisation écrite préalable des titulaires des droits d'auteur doit être obtenue pour la reproduction de tout élément."
+    },
+    "tutorial": {
+      "face_recognition": {
+        "title": "Vérifier l’image",
+        "description": "Comparez toujours l’image avec le visage de la personne."
+      },
+      "scan": {
+        "title": "Comment scanner",
+        "description": "Il suffit de scanner la zone de texte ou le code QR au dos."
+      },
+      "check_result": {
+        "title": "Vérifier le résultat",
+        "description": "vert: pas de restrictions, jaune: seulement de la bière et du vin, rouge: pas de vente d’alcool."
+      },
+      "skip": "Sauter",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "done": "Terminé"
+    }
+  }
+}

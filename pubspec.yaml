@@ -1,19 +1,45 @@
-name: jalk_id_scan
-description: "A new Flutter project."
+name: jalk_app
+description: "The Jalk App from Blaues Kreuz Schweiz."
 publish_to: 'none'
-version: 0.1.0
+version: 2.0.0+200
 
 environment:
-  sdk: '>=3.2.3 <4.0.0'
+  sdk: '>=3.3.4 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.6
+  easy_localization: ^3.0.6
+  google_fonts: ^6.2.1
+  intro_slider: ^4.2.1
+  age_calculator: ^1.0.0
+  camera: ^0.10.6
+  google_mlkit_text_recognition: ^0.13.0
+  lottie: ^3.1.0
+  google_mlkit_barcode_scanning: ^0.12.0
+  camera_android_camerax: ^0.6.4+1
+  shared_preferences: ^2.2.3
+  intl: ^0.18.1
+  mrz_parser: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/jalk.png"
+  image_path_ios: "assets/icon/jalk-ios.png"
+  remove_alpha_ios: true
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/google_fonts/
+    - assets/translations/
+    - assets/lottiefiles/
