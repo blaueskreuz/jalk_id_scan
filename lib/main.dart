@@ -21,12 +21,16 @@ Future <void> main() async {
     yield LicenseEntryWithLineBreaks(['lottiefiles'], license);
   });
 
-  runApp(EasyLocalization(
-    supportedLocales: const [Locale('en'), Locale('de'), Locale('fr'), Locale('it')],
-    path: 'assets/translations',
-    fallbackLocale: const Locale('en'),
-    child: const JalkApp(),
-  ));
+  SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+  ]).then((value) {
+    runApp(EasyLocalization(
+      supportedLocales: const [Locale('en'), Locale('de'), Locale('fr'), Locale('it')],
+      path: 'assets/translations',
+      fallbackLocale: const Locale('en'),
+      child: const JalkApp(),
+    ));
+  });
 }
 
 class JalkApp extends StatelessWidget {
@@ -34,10 +38,6 @@ class JalkApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setPreferredOrientations([
-      DeviceOrientation.portraitUp,
-    ]);
-
     return MaterialApp(
       localizationsDelegates: context.localizationDelegates,
       supportedLocales: context.supportedLocales,
