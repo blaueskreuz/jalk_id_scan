@@ -1,4 +1,4 @@
-package ch.blaueskreuz.jalk_app
+package ch.blaueskreuz.jalk
 
 import io.flutter.embedding.android.FlutterActivity
 
